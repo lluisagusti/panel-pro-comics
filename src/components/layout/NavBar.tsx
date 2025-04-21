@@ -30,12 +30,6 @@ const NavBar: React.FC = () => {
                   <span>{user.name}</span>
                 </div>
                 <div className="absolute right-0 mt-2 w-48 bg-white text-foreground rounded-md shadow-lg py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
-                  <Link to="/profile" className="block px-4 py-2 hover:bg-secondary">
-                    Profile
-                  </Link>
-                  <Link to="/my-comics" className="block px-4 py-2 hover:bg-secondary">
-                    My Comics
-                  </Link>
                   <button
                     onClick={logout}
                     className="block w-full text-left px-4 py-2 hover:bg-secondary"
